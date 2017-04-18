@@ -17,9 +17,9 @@ p {
 
 .outer {
   display: table;
-  position: absolute;
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .middle {
@@ -30,4 +30,19 @@ p {
 .inner {
   margin-left: auto;
   margin-right: auto;
+}
+
+.flexbox {
+  display: flex;
+  position: relative;
+  bottom: 240px;
+  margin: 0 auto 60px;
+}
+
+.flexbox a {
+  flex: 1 1 420px;
+}
+
+img {
+  max-width: 420px;
 }
